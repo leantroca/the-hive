@@ -1,3 +1,5 @@
 ollama-data/
 open-webui-data/
+mcp-data/
 *__pycache__*
+*.onnx*

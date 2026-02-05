@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "the-hive-mcp-server"
+version = "0.1.0"
+description = "MCP Server for The Hive"
+authors = ["leantroca <leantroca@github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mcp = "^1.2.0"
+fastmcp = "^2.0.0"
+uvicorn = {extras = ["standard"], version = "^0.32.0"}
+fastapi = "^0.115.0"
+pydantic = "^2.10.0"
+pydantic-settings = "^2.7.0"
+httpx = "^0.28.0"
+python-dotenv = "^1.0.0"
+websockets = "^14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
