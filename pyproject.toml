@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "the-hive"
+version = "0.1.0"
+description = ""
+authors = ["leantroca <leantroca@github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+strands-agents = {extras = ["ollama"], version = "^1.24.0"}
+strands-agents-tools = "^0.2.19"
+piper-tts = "^1.4.0"
+sounddevice = "^0.5.5"
+numpy = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
